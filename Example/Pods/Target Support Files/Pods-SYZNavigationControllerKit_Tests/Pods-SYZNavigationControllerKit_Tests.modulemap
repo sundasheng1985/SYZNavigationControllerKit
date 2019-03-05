@@ -1,0 +1,6 @@
+framework module Pods_SYZNavigationControllerKit_Tests {
+  umbrella header "Pods-SYZNavigationControllerKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

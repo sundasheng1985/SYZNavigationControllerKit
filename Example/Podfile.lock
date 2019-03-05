@@ -1,0 +1,16 @@
+PODS:
+  - SYZNavigationControllerKit (0.1.0)
+
+DEPENDENCIES:
+  - SYZNavigationControllerKit (from `../`)
+
+EXTERNAL SOURCES:
+  SYZNavigationControllerKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SYZNavigationControllerKit: dce76e27757bc03fe70836b1d1915eadd20e6e11
+
+PODFILE CHECKSUM: a12277e19aa8552768e2bf634ea479550f2b7867
+
+COCOAPODS: 1.5.3

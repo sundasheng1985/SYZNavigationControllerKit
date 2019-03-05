@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27C5CE579A7A943BCC6BA0BB594623A9 /* UINavigationController+SYZFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 729756EB2B696D5ED1E9D52A86827489 /* UINavigationController+SYZFullscreenPopGesture.m */; };
+		51D41AFD81B7E21F5C0B1E04F1CDEBC5 /* Pods-SYZNavigationControllerKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067BF44A0F9737825D5CAB82E0BC970F /* Pods-SYZNavigationControllerKit_Example-dummy.m */; };
+		8A26543C113137781CCBACE8431C21C1 /* SYZNavigationControllerKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDA856FA3DDB4B39C4CBB39207860B4 /* SYZNavigationControllerKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DFAB7DB12B208B788456875E38AF5EF /* Pods-SYZNavigationControllerKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B42CE5D7DDBD273E767D3AA93D12D0BF /* Pods-SYZNavigationControllerKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA838E5E3337600A28808ED74AB3A3CF /* Pods-SYZNavigationControllerKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4511B81B5557E5B2FDFCA808103C562C /* Pods-SYZNavigationControllerKit_Tests-dummy.m */; };
+		C07C9008DBE338416763605E8972584A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C8AB66261D5AFE6E567756D6CC28EAE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		CC34D85BA3A2D94F1023A5F073949328 /* SYZBackIntercepterProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73D416F4D60F9260A1EA0E5329A79FD8 /* SYZBackIntercepterProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E881F1CAFE23563203F0236D32CD6AC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		EBBDD3C53D2A02D0D302FD97593C698F /* SYZNavigationControllerKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 734D88C3C7EF74010BD1512B3C78C7EC /* SYZNavigationControllerKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1E421C571E49B1FD5EC6A1B92957BD6 /* UINavigationController+SYZFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E7D7BCCBBA9D85BB748AFAF84A2A52 /* UINavigationController+SYZFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F72F0F911A436E49533C86A2CE001758 /* SYZNavigationControllerKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAEFFC3397A4B9CE4A4474ADF619BC0 /* SYZNavigationControllerKit-dummy.m */; };
+		F9022FE39AA10E96FB264716A49FDD95 /* Pods-SYZNavigationControllerKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A77CC00F66FD622BA51C4A1A4AF0538 /* Pods-SYZNavigationControllerKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9D60ED4AC1286D97D88A65469799E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC8DA2C730A353F10710DDA99D6C4E4E;
+			remoteInfo = "Pods-SYZNavigationControllerKit_Example";
+		};
+		DB25C79FC00D1E07B9270C8F8858CC78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 107E8D68F0831B4339F147F909A74A82;
+			remoteInfo = SYZNavigationControllerKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		067BF44A0F9737825D5CAB82E0BC970F /* Pods-SYZNavigationControllerKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZNavigationControllerKit_Example-dummy.m"; sourceTree = "<group>"; };
+		0B6D8FFE3FEB962B407BA616F6915D5C /* SYZNavigationControllerKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZNavigationControllerKit-prefix.pch"; sourceTree = "<group>"; };
+		13AFA5E7EE0FC3B3774F67CD7E428185 /* Pods-SYZNavigationControllerKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZNavigationControllerKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1592C76871C2FEAAAEBB8C309F4EEA8D /* Pods-SYZNavigationControllerKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZNavigationControllerKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		277828BE6AFA2535EB37E595125A6693 /* Pods-SYZNavigationControllerKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZNavigationControllerKit_Tests.modulemap"; sourceTree = "<group>"; };
+		29DCE288F149907A9CA89D04BE6524DC /* Pods-SYZNavigationControllerKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZNavigationControllerKit_Example-resources.sh"; sourceTree = "<group>"; };
+		2B8F91C9F1D5787FD736C91D8C4A817A /* Pods-SYZNavigationControllerKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZNavigationControllerKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		38E7D7BCCBBA9D85BB748AFAF84A2A52 /* UINavigationController+SYZFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+SYZFullscreenPopGesture.h"; path = "SYZNavigationControllerKit/Classes/UINavigationController+SYZFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		3A77CC00F66FD622BA51C4A1A4AF0538 /* Pods-SYZNavigationControllerKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZNavigationControllerKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		409AF8E145F1EC708B455DCC3FF244BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4511B81B5557E5B2FDFCA808103C562C /* Pods-SYZNavigationControllerKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZNavigationControllerKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		4AEA2AEC463048068FDE094CC8ACDD24 /* Pods-SYZNavigationControllerKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZNavigationControllerKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		59429006FD717D46DB41307DCCF336C0 /* Pods-SYZNavigationControllerKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZNavigationControllerKit_Example.modulemap"; sourceTree = "<group>"; };
+		5D680706605094C617CE5B1E3CF0B01A /* Pods_SYZNavigationControllerKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZNavigationControllerKit_Example.framework; path = "Pods-SYZNavigationControllerKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DFE3468C1C4380A4FB23745919BCDD2 /* SYZNavigationControllerKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SYZNavigationControllerKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		729756EB2B696D5ED1E9D52A86827489 /* UINavigationController+SYZFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+SYZFullscreenPopGesture.m"; path = "SYZNavigationControllerKit/Classes/UINavigationController+SYZFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		734D88C3C7EF74010BD1512B3C78C7EC /* SYZNavigationControllerKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZNavigationControllerKit-umbrella.h"; sourceTree = "<group>"; };
+		73D416F4D60F9260A1EA0E5329A79FD8 /* SYZBackIntercepterProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZBackIntercepterProtocol.h; path = SYZNavigationControllerKit/Classes/SYZBackIntercepterProtocol.h; sourceTree = "<group>"; };
+		7805BA636D0CE05E715ED9E6D37EB290 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C8A675B60E5674F3E8A3A0FD8717D6A /* Pods-SYZNavigationControllerKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZNavigationControllerKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		7EDA856FA3DDB4B39C4CBB39207860B4 /* SYZNavigationControllerKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZNavigationControllerKit.h; path = SYZNavigationControllerKit/Classes/SYZNavigationControllerKit.h; sourceTree = "<group>"; };
+		800FDD04B26B18AF9DA61B5CE82C2A82 /* Pods-SYZNavigationControllerKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZNavigationControllerKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		817E2791AB63DF7D4BBDF63BEE14BC9A /* Pods-SYZNavigationControllerKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZNavigationControllerKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		82B5A7D1ACA7944E505E1B5ABBF82AEA /* Pods-SYZNavigationControllerKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZNavigationControllerKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		906D39EE31B6BA42834D2E33385B2B62 /* Pods-SYZNavigationControllerKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZNavigationControllerKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9391CF5014077C71C28978D74C2B683B /* Pods-SYZNavigationControllerKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZNavigationControllerKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96BE36FE2DD0E9FDB29F271F71B8DB3D /* Pods-SYZNavigationControllerKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZNavigationControllerKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A116AC424213147C8CD826FFE60AD772 /* SYZNavigationControllerKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZNavigationControllerKit.xcconfig; sourceTree = "<group>"; };
+		ACAEFFC3397A4B9CE4A4474ADF619BC0 /* SYZNavigationControllerKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZNavigationControllerKit-dummy.m"; sourceTree = "<group>"; };
+		B42CE5D7DDBD273E767D3AA93D12D0BF /* Pods-SYZNavigationControllerKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZNavigationControllerKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		CD5F85B7DAD07CFF078D51ED7AD54D2B /* Pods_SYZNavigationControllerKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZNavigationControllerKit_Tests.framework; path = "Pods-SYZNavigationControllerKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43F28FCAB59C4557C7EE0F6EE254A40 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4478219A071282C5E6B816907ED5BE2 /* SYZNavigationControllerKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZNavigationControllerKit.modulemap; sourceTree = "<group>"; };
+		D568DFC36F6523174EE9CE4EEC52F958 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F0B4A78B0DC1D1615EF2BC8BECD562C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F33E37C7E598275515EA7F5614F2E5EC /* SYZNavigationControllerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZNavigationControllerKit.framework; path = SYZNavigationControllerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378684DEC0F61AC72F7714397F0F634F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AB66261D5AFE6E567756D6CC28EAE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C02F0A373F3E2EFF71B6688BB14833D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07C9008DBE338416763605E8972584A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54041827BA8C6A26051C2B23FE1D2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E881F1CAFE23563203F0236D32CD6AC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2384FA0A2A569F7D88502B4D7DEA903A /* Pods-SYZNavigationControllerKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D43F28FCAB59C4557C7EE0F6EE254A40 /* Info.plist */,
+				59429006FD717D46DB41307DCCF336C0 /* Pods-SYZNavigationControllerKit_Example.modulemap */,
+				800FDD04B26B18AF9DA61B5CE82C2A82 /* Pods-SYZNavigationControllerKit_Example-acknowledgements.markdown */,
+				1592C76871C2FEAAAEBB8C309F4EEA8D /* Pods-SYZNavigationControllerKit_Example-acknowledgements.plist */,
+				067BF44A0F9737825D5CAB82E0BC970F /* Pods-SYZNavigationControllerKit_Example-dummy.m */,
+				2B8F91C9F1D5787FD736C91D8C4A817A /* Pods-SYZNavigationControllerKit_Example-frameworks.sh */,
+				29DCE288F149907A9CA89D04BE6524DC /* Pods-SYZNavigationControllerKit_Example-resources.sh */,
+				B42CE5D7DDBD273E767D3AA93D12D0BF /* Pods-SYZNavigationControllerKit_Example-umbrella.h */,
+				9391CF5014077C71C28978D74C2B683B /* Pods-SYZNavigationControllerKit_Example.debug.xcconfig */,
+				13AFA5E7EE0FC3B3774F67CD7E428185 /* Pods-SYZNavigationControllerKit_Example.release.xcconfig */,
+			);
+			name = "Pods-SYZNavigationControllerKit_Example";
+			path = "Target Support Files/Pods-SYZNavigationControllerKit_Example";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6F6F40982D08C9B5A5316365F222102A /* SYZNavigationControllerKit */ = {
+			isa = PBXGroup;
+			children = (
+				73D416F4D60F9260A1EA0E5329A79FD8 /* SYZBackIntercepterProtocol.h */,
+				7EDA856FA3DDB4B39C4CBB39207860B4 /* SYZNavigationControllerKit.h */,
+				38E7D7BCCBBA9D85BB748AFAF84A2A52 /* UINavigationController+SYZFullscreenPopGesture.h */,
+				729756EB2B696D5ED1E9D52A86827489 /* UINavigationController+SYZFullscreenPopGesture.m */,
+				B37D563ED4FEFD61B38F36B673362941 /* Pod */,
+				770A0ABFABC9CFB8BD000E083891FB18 /* Support Files */,
+			);
+			name = SYZNavigationControllerKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		770A0ABFABC9CFB8BD000E083891FB18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				409AF8E145F1EC708B455DCC3FF244BD /* Info.plist */,
+				D4478219A071282C5E6B816907ED5BE2 /* SYZNavigationControllerKit.modulemap */,
+				A116AC424213147C8CD826FFE60AD772 /* SYZNavigationControllerKit.xcconfig */,
+				ACAEFFC3397A4B9CE4A4474ADF619BC0 /* SYZNavigationControllerKit-dummy.m */,
+				0B6D8FFE3FEB962B407BA616F6915D5C /* SYZNavigationControllerKit-prefix.pch */,
+				734D88C3C7EF74010BD1512B3C78C7EC /* SYZNavigationControllerKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYZNavigationControllerKit";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7F854687A83B67B6125904F1F86B40FF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D6D07A25AE635C6CCA8D1F46DC7BCAD7 /* Products */,
+				98F5C96A657190DB85F266E8A44D56DF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F854687A83B67B6125904F1F86B40FF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F6F40982D08C9B5A5316365F222102A /* SYZNavigationControllerKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		98F5C96A657190DB85F266E8A44D56DF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2384FA0A2A569F7D88502B4D7DEA903A /* Pods-SYZNavigationControllerKit_Example */,
+				C1C1298054425C03EE2793183FB37F34 /* Pods-SYZNavigationControllerKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B37D563ED4FEFD61B38F36B673362941 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F0B4A78B0DC1D1615EF2BC8BECD562C8 /* LICENSE */,
+				D568DFC36F6523174EE9CE4EEC52F958 /* README.md */,
+				5DFE3468C1C4380A4FB23745919BCDD2 /* SYZNavigationControllerKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1C1298054425C03EE2793183FB37F34 /* Pods-SYZNavigationControllerKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7805BA636D0CE05E715ED9E6D37EB290 /* Info.plist */,
+				277828BE6AFA2535EB37E595125A6693 /* Pods-SYZNavigationControllerKit_Tests.modulemap */,
+				4AEA2AEC463048068FDE094CC8ACDD24 /* Pods-SYZNavigationControllerKit_Tests-acknowledgements.markdown */,
+				82B5A7D1ACA7944E505E1B5ABBF82AEA /* Pods-SYZNavigationControllerKit_Tests-acknowledgements.plist */,
+				4511B81B5557E5B2FDFCA808103C562C /* Pods-SYZNavigationControllerKit_Tests-dummy.m */,
+				906D39EE31B6BA42834D2E33385B2B62 /* Pods-SYZNavigationControllerKit_Tests-frameworks.sh */,
+				7C8A675B60E5674F3E8A3A0FD8717D6A /* Pods-SYZNavigationControllerKit_Tests-resources.sh */,
+				3A77CC00F66FD622BA51C4A1A4AF0538 /* Pods-SYZNavigationControllerKit_Tests-umbrella.h */,
+				817E2791AB63DF7D4BBDF63BEE14BC9A /* Pods-SYZNavigationControllerKit_Tests.debug.xcconfig */,
+				96BE36FE2DD0E9FDB29F271F71B8DB3D /* Pods-SYZNavigationControllerKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYZNavigationControllerKit_Tests";
+			path = "Target Support Files/Pods-SYZNavigationControllerKit_Tests";
+			sourceTree = "<group>";
+		};
+		D6D07A25AE635C6CCA8D1F46DC7BCAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D680706605094C617CE5B1E3CF0B01A /* Pods_SYZNavigationControllerKit_Example.framework */,
+				CD5F85B7DAD07CFF078D51ED7AD54D2B /* Pods_SYZNavigationControllerKit_Tests.framework */,
+				F33E37C7E598275515EA7F5614F2E5EC /* SYZNavigationControllerKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		19B4C79A06F41B0353A9CE334AFF1336 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9022FE39AA10E96FB264716A49FDD95 /* Pods-SYZNavigationControllerKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25007688883B90CC21EB97B2042735BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFAB7DB12B208B788456875E38AF5EF /* Pods-SYZNavigationControllerKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		723AD19BD8EB5E75EC1D25B27B7EC7A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC34D85BA3A2D94F1023A5F073949328 /* SYZBackIntercepterProtocol.h in Headers */,
+				EBBDD3C53D2A02D0D302FD97593C698F /* SYZNavigationControllerKit-umbrella.h in Headers */,
+				8A26543C113137781CCBACE8431C21C1 /* SYZNavigationControllerKit.h in Headers */,
+				F1E421C571E49B1FD5EC6A1B92957BD6 /* UINavigationController+SYZFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		107E8D68F0831B4339F147F909A74A82 /* SYZNavigationControllerKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FF3CF55EE603CF592AC6DC476F56AFA /* Build configuration list for PBXNativeTarget "SYZNavigationControllerKit" */;
+			buildPhases = (
+				723AD19BD8EB5E75EC1D25B27B7EC7A6 /* Headers */,
+				1BBAA76BCD690EBCF620EBE3D75D200F /* Sources */,
+				D54041827BA8C6A26051C2B23FE1D2F2 /* Frameworks */,
+				08B7DA1AF757017EECC19F67EC9A1D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYZNavigationControllerKit;
+			productName = SYZNavigationControllerKit;
+			productReference = F33E37C7E598275515EA7F5614F2E5EC /* SYZNavigationControllerKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		588D05D48058D5AC311CE30F0F716C2C /* Pods-SYZNavigationControllerKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320406E33A59814E2D3EFB1758258A42 /* Build configuration list for PBXNativeTarget "Pods-SYZNavigationControllerKit_Tests" */;
+			buildPhases = (
+				19B4C79A06F41B0353A9CE334AFF1336 /* Headers */,
+				994D35749007DD1BC97FEBA453208875 /* Sources */,
+				4C02F0A373F3E2EFF71B6688BB14833D /* Frameworks */,
+				5E4BFFF10EEF11B9BBEE0027ED847175 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9903F9B2E36084E73F1B5AE28E23319 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZNavigationControllerKit_Tests";
+			productName = "Pods-SYZNavigationControllerKit_Tests";
+			productReference = CD5F85B7DAD07CFF078D51ED7AD54D2B /* Pods_SYZNavigationControllerKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FC8DA2C730A353F10710DDA99D6C4E4E /* Pods-SYZNavigationControllerKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59555715374A0B89CF1AFBB74510850E /* Build configuration list for PBXNativeTarget "Pods-SYZNavigationControllerKit_Example" */;
+			buildPhases = (
+				25007688883B90CC21EB97B2042735BA /* Headers */,
+				A1140DF251082691327553FBBC0FB5A3 /* Sources */,
+				378684DEC0F61AC72F7714397F0F634F /* Frameworks */,
+				B3154DA7A39C6FE0E882BCC24EF7FEBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC02AF730664DB42AE242DFF03893BFC /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZNavigationControllerKit_Example";
+			productName = "Pods-SYZNavigationControllerKit_Example";
+			productReference = 5D680706605094C617CE5B1E3CF0B01A /* Pods_SYZNavigationControllerKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D6D07A25AE635C6CCA8D1F46DC7BCAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC8DA2C730A353F10710DDA99D6C4E4E /* Pods-SYZNavigationControllerKit_Example */,
+				588D05D48058D5AC311CE30F0F716C2C /* Pods-SYZNavigationControllerKit_Tests */,
+				107E8D68F0831B4339F147F909A74A82 /* SYZNavigationControllerKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B7DA1AF757017EECC19F67EC9A1D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E4BFFF10EEF11B9BBEE0027ED847175 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3154DA7A39C6FE0E882BCC24EF7FEBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BBAA76BCD690EBCF620EBE3D75D200F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F72F0F911A436E49533C86A2CE001758 /* SYZNavigationControllerKit-dummy.m in Sources */,
+				27C5CE579A7A943BCC6BA0BB594623A9 /* UINavigationController+SYZFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994D35749007DD1BC97FEBA453208875 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA838E5E3337600A28808ED74AB3A3CF /* Pods-SYZNavigationControllerKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1140DF251082691327553FBBC0FB5A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51D41AFD81B7E21F5C0B1E04F1CDEBC5 /* Pods-SYZNavigationControllerKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9903F9B2E36084E73F1B5AE28E23319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SYZNavigationControllerKit_Example";
+			target = FC8DA2C730A353F10710DDA99D6C4E4E /* Pods-SYZNavigationControllerKit_Example */;
+			targetProxy = D9D60ED4AC1286D97D88A65469799E84 /* PBXContainerItemProxy */;
+		};
+		BC02AF730664DB42AE242DFF03893BFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZNavigationControllerKit;
+			target = 107E8D68F0831B4339F147F909A74A82 /* SYZNavigationControllerKit */;
+			targetProxy = DB25C79FC00D1E07B9270C8F8858CC78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DE3CC871F208A298BDCE51309AACEDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96BE36FE2DD0E9FDB29F271F71B8DB3D /* Pods-SYZNavigationControllerKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Tests/Pods-SYZNavigationControllerKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53194F17AA77DC4BAE9345F9B5F3E30D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817E2791AB63DF7D4BBDF63BEE14BC9A /* Pods-SYZNavigationControllerKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Tests/Pods-SYZNavigationControllerKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D27AAC374723449971EA1005C79937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AFA5E7EE0FC3B3774F67CD7E428185 /* Pods-SYZNavigationControllerKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Example/Pods-SYZNavigationControllerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		880D1F3064984E3CE5CE183F1732FBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9391CF5014077C71C28978D74C2B683B /* Pods-SYZNavigationControllerKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZNavigationControllerKit_Example/Pods-SYZNavigationControllerKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BE41390817EB28BA1C14067A74A06C71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A116AC424213147C8CD826FFE60AD772 /* SYZNavigationControllerKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZNavigationControllerKit/SYZNavigationControllerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZNavigationControllerKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZNavigationControllerKit/SYZNavigationControllerKit.modulemap";
+				PRODUCT_MODULE_NAME = SYZNavigationControllerKit;
+				PRODUCT_NAME = SYZNavigationControllerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAFF4BD1ECA83AAFFF0AF1C25A6AD15E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A116AC424213147C8CD826FFE60AD772 /* SYZNavigationControllerKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZNavigationControllerKit/SYZNavigationControllerKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZNavigationControllerKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZNavigationControllerKit/SYZNavigationControllerKit.modulemap";
+				PRODUCT_MODULE_NAME = SYZNavigationControllerKit;
+				PRODUCT_NAME = SYZNavigationControllerKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A73625DEBD810B78234FA1958C191C8C /* Debug */,
+				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320406E33A59814E2D3EFB1758258A42 /* Build configuration list for PBXNativeTarget "Pods-SYZNavigationControllerKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53194F17AA77DC4BAE9345F9B5F3E30D /* Debug */,
+				2DE3CC871F208A298BDCE51309AACEDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59555715374A0B89CF1AFBB74510850E /* Build configuration list for PBXNativeTarget "Pods-SYZNavigationControllerKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D1F3064984E3CE5CE183F1732FBBD /* Debug */,
+				7D27AAC374723449971EA1005C79937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FF3CF55EE603CF592AC6DC476F56AFA /* Build configuration list for PBXNativeTarget "SYZNavigationControllerKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE41390817EB28BA1C14067A74A06C71 /* Debug */,
+				EAFF4BD1ECA83AAFFF0AF1C25A6AD15E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
